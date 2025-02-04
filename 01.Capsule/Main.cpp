@@ -16,9 +16,9 @@ int main()
 
 	std::cout << "\n";
 
-	Time time1 = Time(10);            // 10시 0분 0초.
-	Time time2 = Time(10, 20);        // 10시 20분 0초.
-	Time time3 = Time(10, 20, 30);    // 10시 20분 30초.
+	Time time1 = Time(10);            
+	Time time2 = Time(10, 20);        
+	Time time3 = Time(10, 20, 30);    
 
 	time2.ShowTime();
 	time2.ShowTimeInSeconds();
